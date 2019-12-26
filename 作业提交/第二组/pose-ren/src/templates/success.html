@@ -1,0 +1,13 @@
+
+    <!doctype html>
+    <title>success</title>
+    <h1>predict result</h1>
+    <body>
+        <img src={{ url_for('static',filename=filename) }}
+        <p>class:{{ classres }}</p>
+        <p>top_k: </p>
+        {% for i in range(5) %}
+        <p>{{ label[i]}} : {{ scores[i]}}</p>
+        {% endfor %}
+    </body>
+    
