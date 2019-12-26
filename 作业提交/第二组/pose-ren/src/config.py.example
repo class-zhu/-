@@ -13,8 +13,7 @@ sys.path.append(os.path.join(BASE_DIR, 'libs'))
 
 # dataset dir: where to find train/test depth images
 nyu_data_dir = '/home/workspace/Datasets/NYU/'
-# icvl_data_dir = '/home/workspace/Datasets/ICVL/'
-icvl_data_dir = '/mnt/4224D24D24D24417/Datasets/hu-icvl/'
+icvl_data_dir = '/home/workspace/Datasets/ICVL/'
 msra_data_dir = '/home/workspace/Datasets/MSRA/cvpr15_MSRAHandGestureDB/'
 
 # annotation dir: where to find train/test_image/label.txt
