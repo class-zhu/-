@@ -22,3 +22,7 @@
    2.  Rename your video file or change source code in `./eval_script.py`
    3.  Then `python eval_script.py --config-file "configs/eval_real_world_testset.yaml"`
    4.  When step 3 finish, running `python picture2video.py`
+
+>   林世胤
+>
+>   胡茗森
