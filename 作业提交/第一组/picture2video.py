@@ -14,7 +14,7 @@ def picture2video(picture_path,newvideo_path,picture_amount):
     videoWriter.release()
     print("finish")
 
-picture_path='/home/x/Documents/Code/Python/DeepLearning/Hand/hand-graph-cnn-master/output/configs/eval_real_world_testset.yaml'
-newvideo_path = '/home/x/Documents/Code/Python/DeepLearning/Hand/hand-graph-cnn-master/output/configs/picture2video/newvideo_3.avi'
+picture_path='./output/configs/eval_real_world_testset.yaml'
+newvideo_path = './output/configs/picture2video/newvideo_3.avi'
 picture_amount=600
 picture2video(picture_path,newvideo_path,picture_amount)

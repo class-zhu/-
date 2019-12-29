@@ -1,2 +1,0 @@
-组员：胡茗森 林世胤
-论文题目：3D Hand Shape and Pose Estimation from a Single RGB Image

@@ -132,8 +132,8 @@ def video2picture(video_path,picture_path,picture_amount):
 
 
 if __name__ == "__main__":
-    video_path="/home/x/Documents/Code/Python/DeepLearning/Hand/hand-graph-cnn-master/data/real_world_testset/video/HandVideo_4.mp4"
-    picture_path="/home/x/Documents/Code/Python/DeepLearning/Hand/hand-graph-cnn-master/data/real_world_testset/images/"
+    video_path="./data/real_world_testset/video/HandVideo_4.mp4"
+    picture_path="./data/real_world_testset/images/"
     picture_amount=600
     video2picture(video_path,picture_path,picture_amount)
     print("video2picture")
